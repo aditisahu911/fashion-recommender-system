@@ -57,7 +57,7 @@ Example:
 - Input: Shirt image.
 - Output: 5 visually similar shirts from the dataset.
 
-![Example Working](screenshots/home.png)
+![Example Working](screenshots/screenshots.png)
 
 ---
 
