@@ -13,14 +13,13 @@ This project highlights how **CNNs, transfer learning, and similarity search** c
 The core idea is:
 1. Train a **Convolutional Neural Network (CNN)** for feature extraction using **transfer learning with ResNet-50**.
 2. Store embeddings of the fashion inventory in a database.
-3. Use **Annoy** for a **fast nearest neighbor search**.
+3. Use ** nearest neighbor search**.
 4. Find the **top 5 most visually similar items** to the input image.
-5. Display results in a **Streamlit web app**.
 
 **Flow:**
 - Pre-trained ResNet-50 extracts **deep features** from images.
 - Features are stored for all items in the inventory.
-- User uploads an image → the system extracts its features → finds similar items using cosine similarity → shows the top matches.
+- User uploads an image → the system extracts its features → finds similar items using euclidean distance between vectors → shows the top matches.
 
 ---
 
@@ -59,11 +58,3 @@ Example:
 
 ![Example Working](screenshots/screenshots.png)
 
----
-
-## Installation
-
-1. **Clone the repository**
-```bash
-git clone https://github.com/yourusername/fashion-recommender.git
-cd fashion-recommender
