@@ -54,8 +54,10 @@ In this project:
 - Achieved **high visual relevance** in recommendations with low latency.
 
 Example:
-- Input: Casual denim jacket image.
-- Output: 5 visually similar jackets from the dataset.
+- Input: Shirt image.
+- Output: 5 visually similar shirts from the dataset.
+
+![Example Working](screenshots/home.png)
 
 ---
 
